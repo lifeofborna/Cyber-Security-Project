@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cyber-sec-project"
+version = "0.1.0"
+description = "cyber_sec_project"
+authors = ["lifeofborna <borna.jamali@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cyber_sec_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.3.2"
+flask-sqlalchemy = "^3.0.3"
+flask-login = "^0.6.2"
+flask-wtf = "^1.1.1"
+wtforms = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
